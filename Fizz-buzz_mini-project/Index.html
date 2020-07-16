@@ -7,60 +7,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
-    <title>Coder Foundry MiniSite Template</title>
+    <title>Kodie's Fizz-Buzz</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        .elWide {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .welcome_Wrap {
+            background-image: url('img/wlc-bg1.jpg');
+            /* The image used */
+            /* Full height */
+            height: 100%;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .textColor {
+            color: #08d655;
+        }
+
+        .bgColor {
+            background-color: #343a40;
+        }
+
+
+
+        .dropdown-content a:hover {
+            background-color: transparent;
+        }
+    </style>
 
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-            <a class="navbar-brand" href="/Index.html">Challenge Name Here</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/Index.html">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Solve.html">Solve</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Code.html">Code</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Git</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blog Post/YouTube Explanation</a>
-                    </li>
-                </ul>
+    <div class="welcome_Wrap">
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+            <div class="container">
+                <a class="navbar-brand" href="/Index.html">Fizz-Buzz</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/Index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Solve.html">Solve</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Code.html">Code</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="//github.com/kodiekane15/Fizz-buzz_mini-project">Git</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="//kodiekane.netlify.app/" target="_blank">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle nav-link" data-toggle="dropdown">Mini Projects</a>
+                                <div class="dropdown-menu bgColor">
+                                    <div class="dropdown-content">
+                                        <a href="//kodiekane-sumofallfear.netlify.app/" class="dropdown-item nav-link">Sum of All Fears</a>
+                                        <a href="//kodiekane-sunsethills.netlify.app/" class="dropdown-item nav-item nav-link">Sunset Hills</a>
+                                        <a href="//kodiekane-tacocat.netlify.app/" class="dropdown-item nav-item nav-link">Taco Cat</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">The Title of the Exercise</h1>
-                <p class="lead">You can customize the template colors</p>
-                <ul class="list-unstyled">
-                    <li>This page is for a description of the Javascript exercise</li>
-                    <li>You should include information about what the code does</li>
-                </ul>
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="mt-5">The Title of the Exercise</h1>
+                    <p class="lead">You can customize the template colors</p>
+                    <ul class="list-unstyled">
+                        <li>This page is for a description of the Javascript exercise</li>
+                        <li>You should include information about what the code does</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
